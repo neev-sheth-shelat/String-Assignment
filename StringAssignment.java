@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class StringIntro{
+public class StringAssignment{
     public static void main(String[] args){
         //Strings are immutable so the main string is never altered, a new one must be created
 
