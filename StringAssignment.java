@@ -49,6 +49,31 @@ public class StringAssignment{
         String[] listOfLetters = location.split("a"); //splits String location wherever there is an "a"
         System.out.println(Arrays.toString(listOfLetters));
 
+        String zapato = "zapato";
+        System.out.println(zapato.charAt(3));
+
+        String empty = "";
+        System.out.println(empty.isEmpty());
+
+        System.out.println(zapato.toUpperCase());
+
+        String BIG = "BIG";
+        System.out.println(BIG.toLowerCase());
+
+        String hello = "hello";
+        System.out.println(hello.concat(" world!"));
+
+        System.out.println(hello.endsWith("o"));
+
+        System.out.println(hello.hashCode());
+
+        System.out.println(hello.startsWith("h"));
+
+        String tigers = "tigers";
+        System.out.println(tigers.codePointAt(3));
+
+
+
         
 
 
